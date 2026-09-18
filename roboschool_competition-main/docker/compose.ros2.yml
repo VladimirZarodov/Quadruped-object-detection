@@ -1,0 +1,24 @@
+services:
+  ros2-jazzy:
+    image: aliengo-ros2-jazzy
+    build:
+      context: ..
+      dockerfile: docker/ros2-jazzy/Dockerfile
+
+    volumes:
+      - ..:/workspace/aliengo_competition
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+
+    environment:
+      - DISPLAY=${DISPLAY}
+      - NVIDIA_DRIVER_CAPABILITIES=all,compute,utility,graphics
+      - QT_X11_NO_MITSHM=1
+      - LIBGL_DRI3_DISABLE=1
+      - ROS_DOMAIN_ID=${ROS_DOMAIN_ID:-0}
+
+    stdin_open: true
+    tty: true
+    network_mode: host
+    gpus: all
+
+    command: tail -f /dev/null

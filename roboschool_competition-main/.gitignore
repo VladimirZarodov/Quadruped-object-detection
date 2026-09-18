@@ -1,0 +1,13 @@
+.git
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+logs/
+tmp/
+models/*
+!models/.gitkeep
+<<<<<<< Updated upstream
+.codex
+=======
+>>>>>>> Stashed changes

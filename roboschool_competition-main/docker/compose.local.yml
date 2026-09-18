@@ -1,0 +1,26 @@
+services:
+  aliengo-competition:
+    image: aliengo-competition
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+
+    volumes:
+      - ..:/workspace/aliengo_competition
+
+    environment:
+      - PYTHONPATH=/opt/isaacgym/python:/workspace/aliengo_competition/src:/workspace/aliengo_competition
+
+    stdin_open: true
+    tty: true
+    network_mode: host
+
+    command: tail -f /dev/null
+
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]

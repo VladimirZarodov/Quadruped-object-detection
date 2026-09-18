@@ -1,0 +1,52 @@
+[0.000000] (-) TimerEvent: {}
+[0.000122] (ros2_bridge_pkg) JobQueued: {'identifier': 'ros2_bridge_pkg', 'dependencies': OrderedDict()}
+[0.000543] (ros2_bridge_pkg) JobStarted: {'identifier': 'ros2_bridge_pkg'}
+[0.099755] (-) TimerEvent: {}
+[0.199897] (-) TimerEvent: {}
+[0.300065] (-) TimerEvent: {}
+[0.400243] (-) TimerEvent: {}
+[0.500421] (-) TimerEvent: {}
+[0.600564] (-) TimerEvent: {}
+[0.700727] (-) TimerEvent: {}
+[0.800852] (-) TimerEvent: {}
+[0.900979] (-) TimerEvent: {}
+[1.001098] (-) TimerEvent: {}
+[1.101208] (-) TimerEvent: {}
+[1.201323] (-) TimerEvent: {}
+[1.301436] (-) TimerEvent: {}
+[1.401526] (-) TimerEvent: {}
+[1.501650] (-) TimerEvent: {}
+[1.601793] (-) TimerEvent: {}
+[1.701925] (-) TimerEvent: {}
+[1.802048] (-) TimerEvent: {}
+[1.902167] (-) TimerEvent: {}
+[2.002282] (-) TimerEvent: {}
+[2.102400] (-) TimerEvent: {}
+[2.202529] (-) TimerEvent: {}
+[2.302656] (-) TimerEvent: {}
+[2.400340] (ros2_bridge_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/workspace/aliengo_competition/ros2_isaac_bridge/ros2_ws/build/ros2_bridge_pkg/build', '--no-deps', 'symlink_data'], 'cwd': '/workspace/aliengo_competition/ros2_isaac_bridge/ros2_ws/build/ros2_bridge_pkg', 'env': {'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'HOSTNAME': 'uzer-workstation', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/root', 'OLDPWD': '/workspace/aliengo_competition', 'LIBGL_DRI3_DISABLE': '1', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NVIDIA_DRIVER_CAPABILITIES': 'all,compute,utility,graphics', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_WS': '/workspace/aliengo_competition/ros2_isaac_bridge/ros2_ws', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/workspace/aliengo_competition/ros2_isaac_bridge/ros2_ws/build/ros2_bridge_pkg', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspace/aliengo_competition/ros2_isaac_bridge/ros2_ws/build/ros2_bridge_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/aliengo_competition/ros2_isaac_bridge/ros2_ws/install/ros2_bridge_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[2.402716] (-) TimerEvent: {}
+[2.502830] (-) TimerEvent: {}
+[2.602975] (-) TimerEvent: {}
+[2.660662] (ros2_bridge_pkg) StdoutLine: {'line': b'running develop\n'}
+[2.703068] (-) TimerEvent: {}
+[2.803223] (-) TimerEvent: {}
+[2.824712] (ros2_bridge_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.839189] (ros2_bridge_pkg) StdoutLine: {'line': b'writing ros2_bridge_pkg.egg-info/PKG-INFO\n'}
+[2.839403] (ros2_bridge_pkg) StdoutLine: {'line': b'writing dependency_links to ros2_bridge_pkg.egg-info/dependency_links.txt\n'}
+[2.839639] (ros2_bridge_pkg) StdoutLine: {'line': b'writing entry points to ros2_bridge_pkg.egg-info/entry_points.txt\n'}
+[2.839829] (ros2_bridge_pkg) StdoutLine: {'line': b'writing requirements to ros2_bridge_pkg.egg-info/requires.txt\n'}
+[2.839932] (ros2_bridge_pkg) StdoutLine: {'line': b'writing top-level names to ros2_bridge_pkg.egg-info/top_level.txt\n'}
+[2.869743] (ros2_bridge_pkg) StdoutLine: {'line': b"reading manifest file 'ros2_bridge_pkg.egg-info/SOURCES.txt'\n"}
+[2.870410] (ros2_bridge_pkg) StdoutLine: {'line': b"writing manifest file 'ros2_bridge_pkg.egg-info/SOURCES.txt'\n"}
+[2.885986] (ros2_bridge_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[2.899599] (ros2_bridge_pkg) StdoutLine: {'line': b'Creating /workspace/aliengo_competition/ros2_isaac_bridge/ros2_ws/install/ros2_bridge_pkg/lib/python3.12/site-packages/ros2-bridge-pkg.egg-link (link to .)\n'}
+[2.900213] (ros2_bridge_pkg) StdoutLine: {'line': b'Installing bridge_node script to /workspace/aliengo_competition/ros2_isaac_bridge/ros2_ws/install/ros2_bridge_pkg/lib/ros2_bridge_pkg\n'}
+[2.900487] (ros2_bridge_pkg) StdoutLine: {'line': b'\n'}
+[2.900613] (ros2_bridge_pkg) StdoutLine: {'line': b'Installed /workspace/aliengo_competition/ros2_isaac_bridge/ros2_ws/build/ros2_bridge_pkg\n'}
+[2.900668] (ros2_bridge_pkg) StdoutLine: {'line': b'running symlink_data\n'}
+[2.903287] (-) TimerEvent: {}
+[2.919561] (ros2_bridge_pkg) CommandEnded: {'returncode': 0}
+[3.003372] (-) TimerEvent: {}
+[3.086785] (ros2_bridge_pkg) JobEnded: {'identifier': 'ros2_bridge_pkg', 'rc': 0}
+[3.087334] (-) EventReactorShutdown: {}

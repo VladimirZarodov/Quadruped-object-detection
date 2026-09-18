@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/ros2_bridge_pkg/ros2_bridge_pkg.egg-info
+writing ../../build/ros2_bridge_pkg/ros2_bridge_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/ros2_bridge_pkg/ros2_bridge_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/ros2_bridge_pkg/ros2_bridge_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/ros2_bridge_pkg/ros2_bridge_pkg.egg-info/requires.txt
+writing top-level names to ../../build/ros2_bridge_pkg/ros2_bridge_pkg.egg-info/top_level.txt
+writing manifest file '../../build/ros2_bridge_pkg/ros2_bridge_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/ros2_bridge_pkg/ros2_bridge_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/ros2_bridge_pkg/ros2_bridge_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ammar/roboschool/ros2_isaac_bridge/ros2_ws/build/ros2_bridge_pkg/build
+creating /home/ammar/roboschool/ros2_isaac_bridge/ros2_ws/build/ros2_bridge_pkg/build/lib
+creating /home/ammar/roboschool/ros2_isaac_bridge/ros2_ws/build/ros2_bridge_pkg/build/lib/ros2_bridge_pkg
+copying ros2_bridge_pkg/bridge_node.py -> /home/ammar/roboschool/ros2_isaac_bridge/ros2_ws/build/ros2_bridge_pkg/build/lib/ros2_bridge_pkg
+copying ros2_bridge_pkg/__init__.py -> /home/ammar/roboschool/ros2_isaac_bridge/ros2_ws/build/ros2_bridge_pkg/build/lib/ros2_bridge_pkg
+running install
+running install_lib
+creating /home/ammar/roboschool/ros2_isaac_bridge/ros2_ws/install/ros2_bridge_pkg/lib/python3.12/site-packages/ros2_bridge_pkg
+copying /home/ammar/roboschool/ros2_isaac_bridge/ros2_ws/build/ros2_bridge_pkg/build/lib/ros2_bridge_pkg/bridge_node.py -> /home/ammar/roboschool/ros2_isaac_bridge/ros2_ws/install/ros2_bridge_pkg/lib/python3.12/site-packages/ros2_bridge_pkg
+copying /home/ammar/roboschool/ros2_isaac_bridge/ros2_ws/build/ros2_bridge_pkg/build/lib/ros2_bridge_pkg/__init__.py -> /home/ammar/roboschool/ros2_isaac_bridge/ros2_ws/install/ros2_bridge_pkg/lib/python3.12/site-packages/ros2_bridge_pkg
+byte-compiling /home/ammar/roboschool/ros2_isaac_bridge/ros2_ws/install/ros2_bridge_pkg/lib/python3.12/site-packages/ros2_bridge_pkg/bridge_node.py to bridge_node.cpython-312.pyc
+byte-compiling /home/ammar/roboschool/ros2_isaac_bridge/ros2_ws/install/ros2_bridge_pkg/lib/python3.12/site-packages/ros2_bridge_pkg/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/ammar/roboschool/ros2_isaac_bridge/ros2_ws/install/ros2_bridge_pkg/share/ament_index
+creating /home/ammar/roboschool/ros2_isaac_bridge/ros2_ws/install/ros2_bridge_pkg/share/ament_index/resource_index
+creating /home/ammar/roboschool/ros2_isaac_bridge/ros2_ws/install/ros2_bridge_pkg/share/ament_index/resource_index/packages
+copying resource/ros2_bridge_pkg -> /home/ammar/roboschool/ros2_isaac_bridge/ros2_ws/install/ros2_bridge_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/ammar/roboschool/ros2_isaac_bridge/ros2_ws/install/ros2_bridge_pkg/share/ros2_bridge_pkg
+running install_egg_info
+Copying ../../build/ros2_bridge_pkg/ros2_bridge_pkg.egg-info to /home/ammar/roboschool/ros2_isaac_bridge/ros2_ws/install/ros2_bridge_pkg/lib/python3.12/site-packages/ros2_bridge_pkg-0.0.0-py3.12.egg-info
+running install_scripts
+Installing bridge_node script to /home/ammar/roboschool/ros2_isaac_bridge/ros2_ws/install/ros2_bridge_pkg/lib/ros2_bridge_pkg
+writing list of installed files to '/home/ammar/roboschool/ros2_isaac_bridge/ros2_ws/build/ros2_bridge_pkg/install.log'

@@ -1,0 +1,15 @@
+.git
+runs/
+logs/
+tmp/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+models/*
+!models/.gitkeep
+*.pt
+*.pth
+*.jit
+docker/base/
+docker/isaac-gym/
